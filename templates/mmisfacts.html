@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quotes</title>
+</head>
+<body>
+    <h1>Interesting facts from the book Modern Man In Search Of Soul</h1>
+        <p>Jung believed that the human psyche is composed of both conscious and unconscious elements, and that the integration of these elements is essential for personal growth and development.</p>
+
+<p>Jung proposed the concept of archetypes, or universal patterns of behavior and thought that are inherited from our ancestors and are present in all cultures.</p>
+
+<p>Jung saw the process of individuation, or the realization of one's true self, as a lifelong journey that requires a willingness to confront and integrate one's shadow, or the dark and unconscious aspects of the psyche.</p>
+
+<p>Jung was influenced by a variety of cultural and spiritual traditions, including Christianity, alchemy, and Eastern philosophy, and incorporated elements of these traditions into his psychological theories.</p>
+
+<p>Jung believed that dreams are a powerful tool for accessing the unconscious and uncovering hidden aspects of the psyche.</p>
+
+	<br><br><br><br><br><br>
+	<a href="http://bookclub.abhimanyu-lalwani.com:8000/gallery" class="button">Gallery</a>
+	<ul>
+		{% for i in loccafes %}
+        <li>Cafe: {{i.Name}} - Location: {{i.Location}} </li>
+		{% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quotes</title>
+</head>
+<body>
+    <h1>Interesting facts from the book 1,2,3..Infinity</h1>
+    	<p>In ancient Greece, the Pythagoreans discovered that some numbers, such as the square root of 2, cannot be expressed as a ratio of two integers, which was a shocking discovery at the time.</p>
+
+<p>The principle of relativity, proposed by Einstein, states that the laws of physics are the same for all observers in uniform motion relative to each other, regardless of their relative speeds.</p>
+
+<p>The phenomenon of radioactivity was discovered by Henri Becquerel in 1896 when he noticed that uranium salts emitted rays that could penetrate through paper and other materials.</p>
+
+<p>The theory of quantum mechanics, developed in the early 20th century, describes the behavior of matter and energy at the atomic and subatomic levels and is essential for understanding modern technology, such as transistors and lasers.</p>
+
+<p>The concept of infinity has been a subject of philosophical and mathematical inquiry for thousands of years, and its properties continue to fascinate and challenge scholars today.</p>
+
+	<br><br><br><br><br><br>
+	<a href="http://bookclub.abhimanyu-lalwani.com:8000/gallery" class="button">Gallery</a>
+	<ul>
+		{% for i in loccafes %}
+        <li>Cafe: {{i.Name}} - Location: {{i.Location}} </li>
+		{% endfor %}
+    </ul>
+</body>
+</html>
